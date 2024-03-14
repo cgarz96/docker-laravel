@@ -17,3 +17,5 @@ data:
 	docker exec laravel-docker bash -c "php artisan db:seed"
 exec: 
 	docker exec -it laravel-docker bash 
+key: 
+	docker exec laravel-docker bash -c "php artisan key:generate"
